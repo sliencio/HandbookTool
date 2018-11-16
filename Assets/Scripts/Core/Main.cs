@@ -1,23 +1,32 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+
 public class Main : MonoBehaviour
 {
     //行
     private int m_nRowNum = 4;
+
     //列
     private int m_nColNum = 5;
+
     //最小行数
     private int m_nMinRow = 4;
+
     //Cell
     public Transform m_CellPan;
+
     private GridLayoutGroup m_CellGridLayoutGroup;
+
     //背景控制脚本
     public BgPanControl BgPanControlScript;
+
     //pan 最大宽度
     private float m_PanMaxWidth;
+
     //边距
     private float m_fMargin = 0;
+
     //字母格子模板
     public GameObject m_Cell;
 
@@ -40,9 +49,11 @@ public class Main : MonoBehaviour
         m_fMargin = m_CellGridLayoutGroup.padding.top;
         InitLayoutBg();
 
-        foreach (var key in TableManager.Instance.TableJigsaw.Datas().Keys)
+
+        var datalist = DataManager.Instance().GetWordListBySectionId(1);
+        foreach (string works in datalist)
         {
-            Debug.Log(TableManager.Instance.TableJigsaw.Datas()[key].Words);
+            Debug.Log(works);
         }
     }
 
@@ -131,7 +142,7 @@ public class Main : MonoBehaviour
     /// </summary>
     void NextBtnClick()
     {
-        Color cellColor = new Color(Random.Range(0f, 1f),Random.Range(0f, 1f),Random.Range(0f, 1f),1);
+        Color cellColor = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f), 1);
         var tempWordIndexList = new List<int>();
         foreach (Transform cell in m_CellPan)
         {
@@ -143,7 +154,7 @@ public class Main : MonoBehaviour
                 tempWordIndexList.Add(letter.GetLetterIndex());
             }
         }
-        
+
         WordSplitList.Add(tempWordIndexList);
     }
 
@@ -156,8 +167,10 @@ public class Main : MonoBehaviour
         {
             cell.GetComponent<Letter>().Reset();
         }
+
         WordSplitList.Clear();
     }
+
     /// <summary>
     /// 生成数据
     /// </summary>

@@ -3,93 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="5769949a-c73d-4d92-a02e-9fb4a25eee6a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HandbookTool/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HandbookTool/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HandbookTool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HandbookTool/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GROBOLD.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GROBOLD.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Button.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Button/plate.198.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Button/plate.198.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Button/plate_narrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Button/plate_narrow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_A.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_A.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_B.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_B.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_C.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_C.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_D.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_D.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_E.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_E.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_F.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_F.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_G.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_G.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_H.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_H.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_I.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_I.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_J.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_J.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_K.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_K.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_L.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_L.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_M.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_M.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_N.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_N.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_O.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_O.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_P.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_P.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_Q.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_Q.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_R.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_R.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_S.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_S.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_T.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_T.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_U.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_U.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_V.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_V.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_W.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_W.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_X.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_X.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_Y.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_Y.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_Z.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Letters/ltr_Z.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Letter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Letter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Texture/Bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Texture/Bg.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Texture/area.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Texture/area.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Texture/checkers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Texture/checkers.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Texture/dark_wood.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Texture/dark_wood.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Texture/frame.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Texture/frame.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Texture/wood4.50.c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Texture/wood4.50.c.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Texture/wood4.50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Texture/wood4.50.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Texture/wood4.50.r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Texture/wood4.50.r.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Letter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Letter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Main.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomEventTrigger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomEventTrigger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIEventListener.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIEventListener.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Table.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Table/TableClass.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Table/TableClass/BT_Table_jigsaw.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Table/TableClass/BT_Table_jigsaw.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Table/TableManager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Table/TableManager/Define.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Table/TableManager/Define.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Table/TableManager/TableManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Table/TableManager/TableManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Table/TableManager/TableTools.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Table/TableManager/TableTools.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,22 +60,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2653" />
+          <entry key="cs" value="3240" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2653" />
+          <entry key="C#" value="3240" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="23" />
+          <entry key="cs" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="23" />
+          <entry key="C#" value="24" />
         </counts>
       </usages-collector>
     </session>
@@ -160,65 +85,59 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Main.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="218">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               <folding>
-                <marker date="1542372644962" expanded="true" signature="6:74" ph="..." />
-                <marker date="1542372644962" expanded="true" signature="108:4936" ph="{...}" />
-                <marker date="1542372644962" expanded="true" signature="825:1489" ph="{...}" />
-                <marker date="1542372644962" expanded="true" signature="1386:1483" ph="{...}" />
-                <marker date="1542372644962" expanded="true" signature="1495:1541" ph="/// 初始化布局 ... " />
-                <marker date="1542372644962" expanded="true" signature="1565:2009" ph="{...}" />
-                <marker date="1542372644962" expanded="true" signature="2016:2064" ph="/// 初始化背景格子 ... " />
-                <marker date="1542372644962" expanded="true" signature="2091:2808" ph="{...}" />
-                <marker date="1542372644962" expanded="true" signature="2157:2555" ph="{...}" />
-                <marker date="1542372644962" expanded="true" signature="2248:2545" ph="{...}" />
-                <marker date="1542372644962" expanded="true" signature="2611:2802" ph="{...}" />
-                <marker date="1542372644962" expanded="true" signature="2814:2926" ph="/// 获取单词字母 ... " />
-                <marker date="1542372644962" expanded="true" signature="2961:3374" ph="{...}" />
-                <marker date="1542372644962" expanded="true" signature="3011:3161" ph="/* Debug.Log(&quot;index:&quot; + index + &quot;行列：&quot; + wordIndex.field1 + &quot;:&quot; + wordIndex.field2); ... */" />
-                <marker date="1542372644962" expanded="true" signature="3208:3338" ph="{...}" />
-                <marker date="1542372644962" expanded="true" signature="3380:3495" ph="/// 根据位置，获取行列 ... " />
-                <marker date="1542372644962" expanded="true" signature="3525:3658" ph="{...}" />
-                <marker date="1542372644962" expanded="true" signature="3664:3747" ph="/// 下拉框回调 ... " />
-                <marker date="1542372644962" expanded="true" signature="3791:3901" ph="{...}" />
-                <marker date="1542372644962" expanded="true" signature="3907:3955" ph="/// 下一步按钮回调 ... " />
-                <marker date="1542372644962" expanded="true" signature="3979:4574" ph="{...}" />
-                <marker date="1542372644962" expanded="true" signature="4183:4513" ph="{...}" />
-                <marker date="1542372644962" expanded="true" signature="4321:4503" ph="{...}" />
-                <marker date="1542372644962" expanded="true" signature="4580:4627" ph="/// 重置按钮回调 ... " />
-                <marker date="1542372644962" expanded="true" signature="4652:4810" ph="{...}" />
-                <marker date="1542372644962" expanded="true" signature="4704:4773" ph="{...}" />
-                <marker date="1542372644962" expanded="true" signature="4815:4860" ph="/// 生成数据 ... " />
-                <marker date="1542372644962" expanded="true" signature="4888:4934" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="6:74" ph="..." />
+                <marker date="1542378351799" expanded="true" signature="109:4936" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="834:1492" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="1436:1486" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="1498:1544" ph="/// 初始化布局 ... " />
+                <marker date="1542378351799" expanded="true" signature="1568:2012" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="2019:2067" ph="/// 初始化背景格子 ... " />
+                <marker date="1542378351799" expanded="true" signature="2094:2811" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="2160:2558" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="2251:2548" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="2614:2805" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="2817:2929" ph="/// 获取单词字母 ... " />
+                <marker date="1542378351799" expanded="true" signature="2964:3377" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="3014:3164" ph="/* Debug.Log(&quot;index:&quot; + index + &quot;行列：&quot; + wordIndex.field1 + &quot;:&quot; + wordIndex.field2); ... */" />
+                <marker date="1542378351799" expanded="true" signature="3211:3341" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="3383:3498" ph="/// 根据位置，获取行列 ... " />
+                <marker date="1542378351799" expanded="true" signature="3528:3661" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="3667:3750" ph="/// 下拉框回调 ... " />
+                <marker date="1542378351799" expanded="true" signature="3794:3904" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="3910:3958" ph="/// 下一步按钮回调 ... " />
+                <marker date="1542378351799" expanded="true" signature="3982:4572" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="4189:4519" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="4327:4509" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="4578:4625" ph="/// 重置按钮回调 ... " />
+                <marker date="1542378351799" expanded="true" signature="4650:4809" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="4702:4771" ph="{...}" />
+                <marker date="1542378351799" expanded="true" signature="4815:4860" ph="/// 生成数据 ... " />
+                <marker date="1542378351799" expanded="true" signature="4888:4934" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD91C4F8-4323-4412-BFC2-347271FB04AD/37/1674ccc1/ZipInputStream.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D4736549-4DFC-4E4B-B7B5-E26F4C067841/d7/410ce12c/Resources.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1735">
-              <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/86A59025-41DD-439C-A749-A63EB0167972/c0/b24764b3/File.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="245" column="5" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
+            <state relative-caret-position="545">
+              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+              <folding>
+                <marker date="1542378344838" expanded="true" signature="6:52" ph="..." />
+                <marker date="1542378344838" expanded="true" signature="94:1254" ph="{...}" />
+                <marker date="1542378344838" expanded="true" signature="285:445" ph="{...}" />
+                <marker date="1542378344838" expanded="true" signature="323:411" ph="{...}" />
+                <marker date="1542378344838" expanded="true" signature="451:497" ph="/// 初始化数据 ... " />
+                <marker date="1542378344838" expanded="true" signature="524:914" ph="{...}" />
+                <marker date="1542378344838" expanded="true" signature="648:908" ph="{...}" />
+                <marker date="1542378344838" expanded="true" signature="724:826" ph="{...}" />
+                <marker date="1542378344838" expanded="true" signature="920:1044" ph="/// 返回该场景所有的word列表 ... " />
+                <marker date="1542378344838" expanded="true" signature="1106:1252" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -226,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Letter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="456">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
               <folding>
                 <marker date="1542364869362" expanded="true" signature="6:108" ph="..." />
                 <marker date="1542364869362" expanded="true" signature="166:2115" ph="{...}" />
@@ -274,22 +193,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/337C3B99-D39E-4C4E-ABDC-0294B81B74C9/a8/c2dc5236/Physics.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Letter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/88320207-C7FF-4F2F-921A-89BDDFB6AE2C/bd/82a81e1d/IMouseEvent.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Table/TableManager/TableManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Main.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/71F4E3D7-D65E-42B0-A699-D02E59766D3C/17/b8fbb4aa/Random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D4736549-4DFC-4E4B-B7B5-E26F4C067841/dc/58660ad2/Camera.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Table/TableManager/Define.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD91C4F8-4323-4412-BFC2-347271FB04AD/37/1674ccc1/ZipInputStream.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D4736549-4DFC-4E4B-B7B5-E26F4C067841/a8/38ff9ac3/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/BgPanControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Table/TableManager/TableTools.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D4736549-4DFC-4E4B-B7B5-E26F4C067841/d7/410ce12c/Resources.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4DCEBD88-A990-4497-B1E2-5149CB8E85B9/47/c9676beb/IMoveHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/86A59025-41DD-439C-A749-A63EB0167972/c0/b24764b3/File.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Table/TableClass/BT_Table_jigsaw.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4DCEBD88-A990-4497-B1E2-5149CB8E85B9/05/c06b5d21/IUpdateSelectedHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4DCEBD88-A990-4497-B1E2-5149CB8E85B9/b2/8ae7665c/IPointerDownHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4DCEBD88-A990-4497-B1E2-5149CB8E85B9/f0/328650e3/IPointerEnterHandler.cs" root0="SKIP_HIGHLIGHTING" />
@@ -302,9 +218,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/BgPanControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ThirdParty/Define.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Letter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Main.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Table/TableManager/TableManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Table/TableManager/TableTools.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/DataManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Main.cs" />
       </list>
     </option>
   </component>
@@ -315,10 +232,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="263" />
-    <option name="y" value="23" />
-    <option name="width" value="1692" />
-    <option name="height" value="1057" />
+    <option name="x" value="208" />
+    <option name="y" value="24" />
+    <option name="width" value="1648" />
+    <option name="height" value="1041" />
   </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
@@ -340,25 +257,6 @@
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Core" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Table" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Table" type="1045f7f1:UnityExplorerNode" />
-              <item name="TableManager" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -417,12 +315,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542295271594</updated>
       <workItem from="1542295276241" duration="2930000" />
-      <workItem from="1542352301410" duration="14071000" />
+      <workItem from="1542352301410" duration="17465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17001000" />
+    <option name="totallyTimeSpent" value="20395000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -434,17 +332,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="326" y="29" width="1692" height="1057" extended-state="0" />
+    <frame x="208" y="26" width="1648" height="1041" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15575758" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16002491" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" weight="0.05492228" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.21658032" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37618545" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -478,6 +376,19 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Data/DataManager.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Data/DataManager.cs" initialLine="11">
+            <startOffsets>
+              <option value="300" />
+            </startOffsets>
+            <endOffsets>
+              <option value="323" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -595,43 +506,54 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Table/TableManager/Define.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/86A59025-41DD-439C-A749-A63EB0167972/c0/b24764b3/File.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1542274325485" expanded="false" signature="6:47" ph="..." />
-            <marker date="1542274325485" expanded="true" signature="66:177" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="139:175" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="196:350" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="297:348" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="369:632" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="473:520" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="564:630" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="651:890" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="807:888" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="909:1191" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="1093:1189" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="1210:1535" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="1422:1533" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="1556:1677" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="1639:1675" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="1698:1866" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="1813:1864" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="1887:2101" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="2033:2099" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="2122:2384" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="2301:2382" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="2405:2713" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="2615:2711" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="2734:3087" ph="{...}" />
-            <marker date="1542274325485" expanded="true" signature="2974:3085" ph="{...}" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="245" column="5" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D4736549-4DFC-4E4B-B7B5-E26F4C067841/d7/410ce12c/Resources.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1735">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Table/TableClass/BT_Table_jigsaw.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="45" column="43" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Table/TableManager/TableManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Table/TableManager/TableTools.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD91C4F8-4323-4412-BFC2-347271FB04AD/37/1674ccc1/ZipInputStream.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Letter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        <state relative-caret-position="456">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding>
             <marker date="1542364869362" expanded="true" signature="6:108" ph="..." />
             <marker date="1542364869362" expanded="true" signature="166:2115" ph="{...}" />
@@ -657,119 +579,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD91C4F8-4323-4412-BFC2-347271FB04AD/37/1674ccc1/ZipInputStream.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/86A59025-41DD-439C-A749-A63EB0167972/c0/b24764b3/File.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="245" column="5" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D4736549-4DFC-4E4B-B7B5-E26F4C067841/d7/410ce12c/Resources.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1735">
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Table/TableClass/BT_Table_jigsaw.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="45" column="43" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="43" />
+        <state relative-caret-position="545">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
           <folding>
-            <marker date="1542370753615" expanded="true" signature="6:64" ph="..." />
-            <marker date="1542370753615" expanded="true" signature="93:1723" ph="{...}" />
-            <marker date="1542370753615" expanded="true" signature="1272:1721" ph="{...}" />
-            <marker date="1542370753615" expanded="true" signature="1753:3639" ph="{...}" />
-            <marker date="1542370753615" expanded="true" signature="1991:2023" ph="{...}" />
-            <marker date="1542370753615" expanded="true" signature="2052:2407" ph="{...}" />
-            <marker date="1542370753615" expanded="true" signature="2339:2404" ph="{...}" />
-            <marker date="1542370753615" expanded="true" signature="2434:3307" ph="{...}" />
-            <marker date="1542370753615" expanded="true" signature="2956:3038" ph="{...}" />
-            <marker date="1542370753615" expanded="true" signature="3074:3304" ph="{...}" />
-            <marker date="1542370753615" expanded="true" signature="3340:3382" ph="{...}" />
-            <marker date="1542370753615" expanded="true" signature="3427:3508" ph="{...}" />
-            <marker date="1542370753615" expanded="true" signature="3529:3561" ph="{...}" />
-            <marker date="1542370753615" expanded="true" signature="3611:3637" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Table/TableManager/TableManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding>
-            <marker date="1542372882211" expanded="true" signature="25:732" ph="{...}" />
-            <marker date="1542372882211" expanded="true" signature="113:219" ph="{...}" />
-            <marker date="1542372882211" expanded="true" signature="121:216" ph="{...}" />
-            <marker date="1542372882211" expanded="true" signature="148:191" ph="{...}" />
-            <marker date="1542372882211" expanded="true" signature="361:521" ph="{...}" />
-            <marker date="1542372882211" expanded="true" signature="369:518" ph="{...}" />
-            <marker date="1542372882211" expanded="true" signature="400:490" ph="{...}" />
-            <marker date="1542372882211" expanded="true" signature="558:730" ph="{...}" />
-            <marker date="1542372882211" expanded="true" signature="566:727" ph="{...}" />
-            <marker date="1542372882211" expanded="true" signature="613:695" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Table/TableManager/TableTools.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <marker date="1542374633687" expanded="false" signature="6:70" ph="..." />
-            <marker date="1542374633687" expanded="true" signature="95:1364" ph="{...}" />
-            <marker date="1542374633687" expanded="true" signature="223:333" ph="{...}" />
-            <marker date="1542374633687" expanded="true" signature="402:1161" ph="{...}" />
-            <marker date="1542374633687" expanded="true" signature="420:978" ph="{...}" />
-            <marker date="1542374633687" expanded="true" signature="473:575" ph="{...}" />
-            <marker date="1542374633687" expanded="true" signature="1014:1133" ph="{...}" />
-            <marker date="1542374633687" expanded="true" signature="1219:1362" ph="{...}" />
+            <marker date="1542378344838" expanded="true" signature="6:52" ph="..." />
+            <marker date="1542378344838" expanded="true" signature="94:1254" ph="{...}" />
+            <marker date="1542378344838" expanded="true" signature="285:445" ph="{...}" />
+            <marker date="1542378344838" expanded="true" signature="323:411" ph="{...}" />
+            <marker date="1542378344838" expanded="true" signature="451:497" ph="/// 初始化数据 ... " />
+            <marker date="1542378344838" expanded="true" signature="524:914" ph="{...}" />
+            <marker date="1542378344838" expanded="true" signature="648:908" ph="{...}" />
+            <marker date="1542378344838" expanded="true" signature="724:826" ph="{...}" />
+            <marker date="1542378344838" expanded="true" signature="920:1044" ph="/// 返回该场景所有的word列表 ... " />
+            <marker date="1542378344838" expanded="true" signature="1106:1252" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Main.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="218">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           <folding>
-            <marker date="1542372644962" expanded="true" signature="6:74" ph="..." />
-            <marker date="1542372644962" expanded="true" signature="108:4936" ph="{...}" />
-            <marker date="1542372644962" expanded="true" signature="825:1489" ph="{...}" />
-            <marker date="1542372644962" expanded="true" signature="1386:1483" ph="{...}" />
-            <marker date="1542372644962" expanded="true" signature="1495:1541" ph="/// 初始化布局 ... " />
-            <marker date="1542372644962" expanded="true" signature="1565:2009" ph="{...}" />
-            <marker date="1542372644962" expanded="true" signature="2016:2064" ph="/// 初始化背景格子 ... " />
-            <marker date="1542372644962" expanded="true" signature="2091:2808" ph="{...}" />
-            <marker date="1542372644962" expanded="true" signature="2157:2555" ph="{...}" />
-            <marker date="1542372644962" expanded="true" signature="2248:2545" ph="{...}" />
-            <marker date="1542372644962" expanded="true" signature="2611:2802" ph="{...}" />
-            <marker date="1542372644962" expanded="true" signature="2814:2926" ph="/// 获取单词字母 ... " />
-            <marker date="1542372644962" expanded="true" signature="2961:3374" ph="{...}" />
-            <marker date="1542372644962" expanded="true" signature="3011:3161" ph="/* Debug.Log(&quot;index:&quot; + index + &quot;行列：&quot; + wordIndex.field1 + &quot;:&quot; + wordIndex.field2); ... */" />
-            <marker date="1542372644962" expanded="true" signature="3208:3338" ph="{...}" />
-            <marker date="1542372644962" expanded="true" signature="3380:3495" ph="/// 根据位置，获取行列 ... " />
-            <marker date="1542372644962" expanded="true" signature="3525:3658" ph="{...}" />
-            <marker date="1542372644962" expanded="true" signature="3664:3747" ph="/// 下拉框回调 ... " />
-            <marker date="1542372644962" expanded="true" signature="3791:3901" ph="{...}" />
-            <marker date="1542372644962" expanded="true" signature="3907:3955" ph="/// 下一步按钮回调 ... " />
-            <marker date="1542372644962" expanded="true" signature="3979:4574" ph="{...}" />
-            <marker date="1542372644962" expanded="true" signature="4183:4513" ph="{...}" />
-            <marker date="1542372644962" expanded="true" signature="4321:4503" ph="{...}" />
-            <marker date="1542372644962" expanded="true" signature="4580:4627" ph="/// 重置按钮回调 ... " />
-            <marker date="1542372644962" expanded="true" signature="4652:4810" ph="{...}" />
-            <marker date="1542372644962" expanded="true" signature="4704:4773" ph="{...}" />
-            <marker date="1542372644962" expanded="true" signature="4815:4860" ph="/// 生成数据 ... " />
-            <marker date="1542372644962" expanded="true" signature="4888:4934" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="6:74" ph="..." />
+            <marker date="1542378351799" expanded="true" signature="109:4936" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="834:1492" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="1436:1486" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="1498:1544" ph="/// 初始化布局 ... " />
+            <marker date="1542378351799" expanded="true" signature="1568:2012" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="2019:2067" ph="/// 初始化背景格子 ... " />
+            <marker date="1542378351799" expanded="true" signature="2094:2811" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="2160:2558" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="2251:2548" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="2614:2805" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="2817:2929" ph="/// 获取单词字母 ... " />
+            <marker date="1542378351799" expanded="true" signature="2964:3377" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="3014:3164" ph="/* Debug.Log(&quot;index:&quot; + index + &quot;行列：&quot; + wordIndex.field1 + &quot;:&quot; + wordIndex.field2); ... */" />
+            <marker date="1542378351799" expanded="true" signature="3211:3341" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="3383:3498" ph="/// 根据位置，获取行列 ... " />
+            <marker date="1542378351799" expanded="true" signature="3528:3661" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="3667:3750" ph="/// 下拉框回调 ... " />
+            <marker date="1542378351799" expanded="true" signature="3794:3904" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="3910:3958" ph="/// 下一步按钮回调 ... " />
+            <marker date="1542378351799" expanded="true" signature="3982:4572" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="4189:4519" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="4327:4509" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="4578:4625" ph="/// 重置按钮回调 ... " />
+            <marker date="1542378351799" expanded="true" signature="4650:4809" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="4702:4771" ph="{...}" />
+            <marker date="1542378351799" expanded="true" signature="4815:4860" ph="/// 生成数据 ... " />
+            <marker date="1542378351799" expanded="true" signature="4888:4934" ph="{...}" />
           </folding>
         </state>
       </provider>

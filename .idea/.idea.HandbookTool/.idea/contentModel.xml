@@ -9,14 +9,17 @@
           <e p="Letter.cs" t="Include" />
           <e p="Main.cs" t="Include" />
         </e>
-        <e p="Table" t="Include">
-          <e p="TableClass" t="Include">
-            <e p="BT_Table_jigsaw.cs" t="Include" />
-          </e>
-          <e p="TableManager" t="Include">
-            <e p="Define.cs" t="Include" />
-            <e p="TableManager.cs" t="Include" />
-            <e p="TableTools.cs" t="Include" />
+        <e p="Data" t="Include">
+          <e p="DataManager.cs" t="Include" />
+          <e p="Table" t="Include">
+            <e p="TableClass" t="Include">
+              <e p="BT_Table_jigsaw.cs" t="Include" />
+            </e>
+            <e p="TableManager" t="Include">
+              <e p="Define.cs" t="Include" />
+              <e p="TableManager.cs" t="Include" />
+              <e p="TableTools.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="ThirdParty" t="Include">
