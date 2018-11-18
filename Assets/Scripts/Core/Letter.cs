@@ -1,115 +1,168 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using Image = UnityEngine.UI.Image;
 
-public class Letter : MonoBehaviour, IPointerDownHandler
+public class Letter : BaseLetter, IPointerDownHandler, IPointerUpHandler, IDragHandler
 {
-    public Text letter;
+    public Text m_LetterText;
+    private GameObject target = null;
+    private string m_Tag = string.Empty;
+    private Vector3 offset;
+    private int m_NormalLayer = 110;
+    private int m_SelectLayer = 111;
 
-    //字母索引
-    public int letterIndex = 0;
+    private UIDepthControl m_UIDepthControlScript;
 
-    Image bg;
-
-    //是否被选中
-    private bool m_IsSelect = false;
-
-    //是否被捡起
-    private bool m_IsPickUp = false;
-
-    //取消选中的颜色
-    Color UnSelectColor = new Color(1, 1, 1, 0);
-
-    //选中颜色
-    Color SelectColor = new Color(0, 0.5f, 0.8f, 1);
+    private RectTransform m_RecTransform;
 
     // Use this for initialization
     void Start()
     {
-        bg = GetComponent<Image>();
+        m_RecTransform = gameObject.GetComponent<RectTransform>();
+        m_UIDepthControlScript = GetComponent<UIDepthControl>();
+        m_UIDepthControlScript.Depth = m_NormalLayer;
+        CalOffset();
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+        if (null != target)
+        {
+            transform.position = target.transform.position + offset;
+        }
+    }
+
+
+    private void OnEnable()
+    {
+        EventManager.Instance.LetterPointDownEvent += LetterPointDown;
+        EventManager.Instance.LetterPointUpEvent += LetterPointUp;
+    }
+
+    private void OnDisable()
+    {
+        EventManager.Instance.LetterPointDownEvent -= LetterPointDown;
+        EventManager.Instance.LetterPointUpEvent -= LetterPointUp;
+    }
+
+
+    public override void Reset()
+    {
+        m_LetterStr = string.Empty;
+        m_LetterIndex = -1;
+        m_Tag = string.Empty;
+        target = null;
+    }
+
+    /// <summary>
+    /// 字母按下通知
+    /// </summary>
+    /// <param name="go"></param>
+    void LetterPointDown(GameObject go)
+    {
+        if (gameObject != go && go.GetComponent<Letter>().GetTag() == m_Tag)
+        {
+            SetTarget(go);
+            m_UIDepthControlScript.Depth = m_SelectLayer;
+        }
+        //该字母随意父节点
+        else if (gameObject == go)
+        {
+            SetTarget(null);
+        }
+    }
+
+    /// <summary>
+    /// 字母抬起通知
+    /// </summary>
+    /// <param name="go"></param>
+    void LetterPointUp(GameObject go)
+    {
+        //按下
+        SetTarget(null);
+        m_UIDepthControlScript.Depth = m_NormalLayer;
+    }
+
+    /// <summary>
+    /// 字母按下事件
+    /// </summary>
+    /// <param name="eventData"></param>
     public void OnPointerDown(PointerEventData eventData)
     {
-        if (!m_IsPickUp)
-            SetSelect();
+        //抬起
+        EventManager.Instance.LetterPointDown(gameObject);
+        m_UIDepthControlScript.Depth = m_SelectLayer;
     }
 
+    /// <summary>
+    /// 字母抬起事件
+    /// </summary>
+    /// <param name="eventData"></param>
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        EventManager.Instance.LetterPointUp(gameObject);
+        m_UIDepthControlScript.Depth = m_NormalLayer;
+    }
+
+    public void OnDrag(PointerEventData eventData)
+    {
+        Vector3 globalMousePos;
+        if (RectTransformUtility.ScreenPointToWorldPointInRectangle(m_RecTransform, eventData.position, eventData.pressEventCamera, out globalMousePos))
+        {
+            m_RecTransform.position = globalMousePos;
+        }
+    }
 
     /// <summary>
     /// 设置子母
     /// </summary>
     /// <param name="letterStr"></param>
-    public void SetLetter(string letterStr)
+    public override void SetLetter(string letterStr)
     {
-        letter.text = letterStr;
+        m_LetterStr = letterStr;
+        if (null != m_LetterText)
+        {
+            m_LetterText.text = letterStr;
+        }
     }
 
     /// <summary>
-    /// 设置大小
+    /// 设置目标点
     /// </summary>
-    /// <param name="size"></param>
-    public void SetSize(Vector2 size)
+    /// <param name="go"></param>
+    public void SetTarget(GameObject go)
     {
-        GetComponent<RectTransform>().sizeDelta = size;
-    }
-
-    public void SetPickUpStatus(bool isPicked)
-    {
-        m_IsPickUp = isPicked;
-    }
-
-    public bool GetPickUpStatus()
-    {
-        return m_IsPickUp;
+        target = go;
+        CalOffset();
     }
 
     /// <summary>
-    /// 获取选中状态
+    /// 设置偏移量
+    /// </summary>
+    void CalOffset()
+    {
+        if (null != target)
+        {
+            offset = target.transform.position - transform.position;
+        }
+    }
+
+    /// <summary>
+    /// 设置tag
+    /// </summary>
+    /// <param name="tag"></param>
+    public void SetTag(string tag)
+    {
+        m_Tag = tag;
+    }
+
+    /// <summary>
+    /// 获取tag
     /// </summary>
     /// <returns></returns>
-    public bool GetSelectStatus()
+    public string GetTag()
     {
-        return m_IsSelect;
-    }
-
-    public int GetLetterIndex()
-    {
-        return letterIndex;
-    }
-
-    /// <summary>
-    /// 设置选中状态
-    /// </summary>
-    void SetSelect()
-    {
-        m_IsSelect = !m_IsSelect;
-        bg.color = m_IsSelect ? SelectColor : UnSelectColor;
-    }
-
-    /// <summary>
-    /// 设置颜色
-    /// </summary>
-    /// <param name="color"></param>
-    public void SetColor(Color color)
-    {
-        bg.color = color;
-    }
-
-    public void SetData(int index, string letterStr)
-    {
-        letterIndex = index;
-        SetLetter(letterStr);
-    }
-
-    /// <summary>
-    /// 重置
-    /// </summary>
-    public void Reset()
-    {
-        SetColor(UnSelectColor);
-        m_IsSelect = false;
-        m_IsPickUp = false;
+        return m_Tag;
     }
 }

@@ -3,31 +3,41 @@
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets/Scripts" t="Include">
-        <e p="Core" t="Include">
-          <e p="BgPanControl.cs" t="Include" />
-          <e p="Letter.cs" t="Include" />
-          <e p="Main.cs" t="Include" />
-        </e>
-        <e p="Data" t="Include">
-          <e p="DataManager.cs" t="Include" />
-          <e p="Table" t="Include">
-            <e p="TableClass" t="Include">
-              <e p="BT_Table_jigsaw.cs" t="Include" />
-            </e>
-            <e p="TableManager" t="Include">
-              <e p="Define.cs" t="Include" />
-              <e p="TableManager.cs" t="Include" />
-              <e p="TableTools.cs" t="Include" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Core" t="Include">
+            <e p="BaseLetter.cs" t="Include" />
+            <e p="EditorLetter.cs" t="Include" />
+            <e p="GamePlay.cs" t="Include" />
+            <e p="Letter.cs" t="Include" />
+            <e p="LetterPan.cs" t="Include" />
+            <e p="Main.cs" t="Include" />
+          </e>
+          <e p="Data" t="Include">
+            <e p="DataManager.cs" t="Include" />
+            <e p="Table" t="Include">
+              <e p="TableClass" t="Include">
+                <e p="BT_Table_jigsaw.cs" t="Include" />
+              </e>
+              <e p="TableManager" t="Include">
+                <e p="Define.cs" t="Include" />
+                <e p="TableManager.cs" t="Include" />
+                <e p="TableTools.cs" t="Include" />
+              </e>
             </e>
           </e>
+          <e p="MainGame" t="Include">
+            <e p="EventManager.cs" t="Include" />
+            <e p="UIDepthControl.cs" t="Include" />
+            <e p="WordList.cs" t="Include" />
+          </e>
+          <e p="ThirdParty" t="Include">
+            <e p="SimpleJSON.cs" t="Include" />
+          </e>
         </e>
-        <e p="ThirdParty" t="Include">
-          <e p="SimpleJSON.cs" t="Include" />
+        <e p="StreamingAssets" t="Include">
+          <e p="jigsaw.txt" t="Include" />
         </e>
-      </e>
-      <e p="Assets/StreamingAssets" t="Include">
-        <e p="jigsaw.txt" t="Include" />
       </e>
       <e p="HandbookTool.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
@@ -38,7 +48,6 @@
       </e>
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_HandbookTool.-1513499633.00" t="ExcludeRecursive" />
-    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_HandbookTool.-1569001498.00" t="ExcludeRecursive" />
   </component>
 </project>
