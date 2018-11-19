@@ -157,7 +157,7 @@ public class Letter : BaseLetter, IDragHandler,IBeginDragHandler, IEndDragHandle
     {
         if (null != go)
         {
-            offset = go.transform.position - transform.position;
+            offset = transform.position- go.transform.position;
         }
     }
 
