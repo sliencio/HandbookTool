@@ -2,7 +2,7 @@
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Letter : BaseLetter, IPointerDownHandler, IPointerUpHandler, IDragHandler
+public class Letter : BaseLetter, IDragHandler,IBeginDragHandler, IEndDragHandler
 {
     public Text m_LetterText;
     private GameObject target = null;
@@ -10,6 +10,7 @@ public class Letter : BaseLetter, IPointerDownHandler, IPointerUpHandler, IDragH
     private Vector3 offset;
     private int m_NormalLayer = 110;
     private int m_SelectLayer = 111;
+    private bool m_bIsMoveParent = false;
 
     private UIDepthControl m_UIDepthControlScript;
 
@@ -21,7 +22,7 @@ public class Letter : BaseLetter, IPointerDownHandler, IPointerUpHandler, IDragH
         m_RecTransform = gameObject.GetComponent<RectTransform>();
         m_UIDepthControlScript = GetComponent<UIDepthControl>();
         m_UIDepthControlScript.Depth = m_NormalLayer;
-        CalOffset();
+        CalOffset(target);
     }
 
     // Update is called once per frame
@@ -69,6 +70,7 @@ public class Letter : BaseLetter, IPointerDownHandler, IPointerUpHandler, IDragH
         //该字母随意父节点
         else if (gameObject == go)
         {
+            m_bIsMoveParent = true;
             SetTarget(null);
         }
     }
@@ -84,34 +86,40 @@ public class Letter : BaseLetter, IPointerDownHandler, IPointerUpHandler, IDragH
         m_UIDepthControlScript.Depth = m_NormalLayer;
     }
 
+    public void OnDrag(PointerEventData eventData)
+    {
+//        transform.position = Input.mousePosition; //当前位置为鼠标所在位置
+        Vector3 globalMousePos;
+        if (m_bIsMoveParent && RectTransformUtility.ScreenPointToWorldPointInRectangle(m_RecTransform, eventData.position, eventData.pressEventCamera, out globalMousePos))
+        {
+            transform.position = globalMousePos;
+        }
+    }
+    
     /// <summary>
-    /// 字母按下事件
+    /// 开始拖动
     /// </summary>
     /// <param name="eventData"></param>
-    public void OnPointerDown(PointerEventData eventData)
-    {
+    public void OnBeginDrag (PointerEventData eventData) {
+        Vector3 globalMousePos;
+        if (m_bIsMoveParent && RectTransformUtility.ScreenPointToWorldPointInRectangle(m_RecTransform, eventData.position, eventData.pressEventCamera, out globalMousePos))
+        {
+            transform.position = globalMousePos;
+        }
         //抬起
         EventManager.Instance.LetterPointDown(gameObject);
         m_UIDepthControlScript.Depth = m_SelectLayer;
     }
 
     /// <summary>
-    /// 字母抬起事件
+    /// 结束拖拽
     /// </summary>
-    /// <param name="eventData"></param>
-    public void OnPointerUp(PointerEventData eventData)
+    /// <param name="eventData">Event data.</param>
+    public void OnEndDrag(PointerEventData eventData)
     {
+        m_bIsMoveParent = false;
         EventManager.Instance.LetterPointUp(gameObject);
         m_UIDepthControlScript.Depth = m_NormalLayer;
-    }
-
-    public void OnDrag(PointerEventData eventData)
-    {
-        Vector3 globalMousePos;
-        if (RectTransformUtility.ScreenPointToWorldPointInRectangle(m_RecTransform, eventData.position, eventData.pressEventCamera, out globalMousePos))
-        {
-            m_RecTransform.position = globalMousePos;
-        }
     }
 
     /// <summary>
@@ -133,18 +141,23 @@ public class Letter : BaseLetter, IPointerDownHandler, IPointerUpHandler, IDragH
     /// <param name="go"></param>
     public void SetTarget(GameObject go)
     {
+        if (gameObject == go)
+        {
+            m_bIsMoveParent = false;
+        }
+        CalOffset(go);
         target = go;
-        CalOffset();
+        
     }
 
     /// <summary>
     /// 设置偏移量
     /// </summary>
-    void CalOffset()
+    void CalOffset(GameObject go)
     {
-        if (null != target)
+        if (null != go)
         {
-            offset = target.transform.position - transform.position;
+            offset = go.transform.position - transform.position;
         }
     }
 
