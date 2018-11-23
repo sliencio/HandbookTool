@@ -11,8 +11,8 @@ public enum LetterPanType
 
 public class LetterPan : MonoBehaviour
 {
-
     private bool m_bIsInit = false;
+
     public LetterPanType m_PanType;
 
     //行
@@ -32,8 +32,11 @@ public class LetterPan : MonoBehaviour
 
     //m_Cell
     public GameObject m_Cell;
+
     private List<string> m_WordList = new List<string>();
 
+    //根据索引字典表
+    private Dictionary<int, GameObject> m_LetterIndexDict = new Dictionary<int, GameObject>();
     public bool m_ShowEffect = false;
 
     // Use this for initialization
@@ -89,24 +92,16 @@ public class LetterPan : MonoBehaviour
                 cell.name = "letter_" + i;
                 cell.transform.localPosition = Vector3.zero;
                 cell.transform.localScale = Vector3.one;
+                m_LetterIndexDict[i] = cell;
             }
         }
 
         for (int i = 0; i < transform.childCount; i++)
         {
             transform.GetChild(i).gameObject.SetActive(i < (m_nRowNum * m_nColNum));
-            switch (m_PanType)
-            {
-                case LetterPanType.EDITOR:
-                    transform.GetChild(i).GetComponent<EditorLetter>().SetData(i, GetLetterStr(i));
-                    break;
-                case LetterPanType.BACKGROUND:
-                    transform.GetChild(i).GetComponent<BaseLetter>().SetData(i, GetLetterStr(i));
-                    break;
-                case LetterPanType.MAIN:
-                    transform.GetChild(i).GetComponent<Letter>().SetData(i, GetLetterStr(i));
-                    break;
-            }
+            BaseLetter letter = transform.GetChild(i).GetComponent<BaseLetter>();
+            letter.SetData(i, GetLetterStr(i), GetRowCol(i));
+            SetLetterBrothers(letter);
         }
 
         //展示效果
@@ -114,12 +109,53 @@ public class LetterPan : MonoBehaviour
         {
             for (int i = 0; i < m_nColNum * m_nRowNum; i++)
             {
-                int index = i + 1;
-                int curRow = index / m_nColNum;
-                int curCol = index % m_nColNum;
+                int curRow = i / m_nColNum;
+                int curCol = i % m_nColNum;
                 transform.GetChild(i).GetComponent<Image>().color = ((curRow + curCol) % 2 == 0) ? Color.gray : Color.clear;
             }
         }
+    }
+
+    /// <summary>
+    /// 设置字母的周围
+    /// </summary>
+    /// <param name="letter"></param>
+    void SetLetterBrothers(BaseLetter letter)
+    {
+        int letterIndex = letter.m_LetterIndex;
+        //左
+        if (letter.m_IndexPos.field2 != 0)
+        {
+            letter.m_LeftLetter = GetBaseLetter(letterIndex - 1);
+        }
+
+        //右
+        if (letter.m_IndexPos.field2 != m_nColNum - 1)
+        {
+            letter.m_RightLetter = GetBaseLetter(letterIndex + 1);
+        }
+
+        //上
+        if (letter.m_IndexPos.field1 != 0)
+        {
+            letter.m_TopLetter = GetBaseLetter(letterIndex - m_nColNum);
+        }
+
+        //下
+        if (letter.m_IndexPos.field1 != m_nRowNum - 1)
+        {
+            letter.m_BottomLetter = GetBaseLetter(letterIndex + m_nColNum);
+        }
+    }
+
+    BaseLetter GetBaseLetter(int index)
+    {
+        if (m_LetterIndexDict.ContainsKey(index))
+        {
+            return m_LetterIndexDict[index].GetComponent<BaseLetter>();
+        }
+        Debug.Log("error:"+index);
+        return null;
     }
 
     /// <summary>
@@ -184,6 +220,7 @@ public class LetterPan : MonoBehaviour
         {
             return;
         }
+
         Color cellColor = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f), 1);
 
         foreach (Transform cell in transform)
@@ -198,6 +235,7 @@ public class LetterPan : MonoBehaviour
             }
         }
     }
+
     /// <summary>
     /// 取消layout组件
     /// </summary>
@@ -207,6 +245,16 @@ public class LetterPan : MonoBehaviour
         {
             Start();
         }
+
         m_CellGridLayoutGroup.enabled = isEnable;
+    }
+
+    /// <summary>
+    /// 获取cell的大小
+    /// </summary>
+    /// <returns></returns>
+    public Vector2 GetCellSize()
+    {
+        return m_CellGridLayoutGroup.cellSize;
     }
 }

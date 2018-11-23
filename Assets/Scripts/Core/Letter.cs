@@ -2,27 +2,38 @@
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Letter : BaseLetter, IDragHandler,IBeginDragHandler, IEndDragHandler
+public class Letter : BaseLetter, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
+    //顶部条留的高度
+    private float m_fTopBarHeight = 50f;
+    private bool m_bIsInit = false;
     public Text m_LetterText;
     private GameObject target = null;
     private string m_Tag = string.Empty;
-    private Vector3 offset;
-    private int m_NormalLayer = 110;
-    private int m_SelectLayer = 111;
-    private bool m_bIsMoveParent = false;
 
-    private UIDepthControl m_UIDepthControlScript;
+    private Vector3 offset;
+
+    //没有选中，或者别的字母选中过层
+    private int m_NormalLayer = 110;
+
+    //选中并放下的层级
+    private int m_CommonLayer = 111;
+
+    //选中层级
+    private int m_SelectLayer = 112;
+    private bool m_bIsMoveParent = false;
 
     private RectTransform m_RecTransform;
 
     // Use this for initialization
     void Start()
     {
-        m_RecTransform = gameObject.GetComponent<RectTransform>();
-        m_UIDepthControlScript = GetComponent<UIDepthControl>();
-        m_UIDepthControlScript.Depth = m_NormalLayer;
-        CalOffset(target);
+        if (!m_bIsInit)
+        {
+            m_RecTransform = gameObject.GetComponent<RectTransform>();
+            CalOffset(target);
+            m_bIsInit = true;
+        }
     }
 
     // Update is called once per frame
@@ -47,12 +58,13 @@ public class Letter : BaseLetter, IDragHandler,IBeginDragHandler, IEndDragHandle
         EventManager.Instance.LetterPointUpEvent -= LetterPointUp;
     }
 
-
+    /// <summary>
+    /// 重置
+    /// </summary>
     public override void Reset()
     {
-        m_LetterStr = string.Empty;
+        base.Reset();
         m_LetterIndex = -1;
-        m_Tag = string.Empty;
         target = null;
     }
 
@@ -62,16 +74,22 @@ public class Letter : BaseLetter, IDragHandler,IBeginDragHandler, IEndDragHandle
     /// <param name="go"></param>
     void LetterPointDown(GameObject go)
     {
-        if (gameObject != go && go.GetComponent<Letter>().GetTag() == m_Tag)
+        if (go.GetComponent<Letter>().GetTag() != m_Tag)
         {
-            SetTarget(go);
-            m_UIDepthControlScript.Depth = m_SelectLayer;
         }
-        //该字母随意父节点
-        else if (gameObject == go)
+        else
         {
-            m_bIsMoveParent = true;
-            SetTarget(null);
+            gameObject.transform.SetAsLastSibling();
+            if (gameObject != go)
+            {
+                SetTarget(go);
+            }
+            //该字母随意父节点
+            else if (gameObject == go)
+            {
+                m_bIsMoveParent = true;
+                SetTarget(null);
+            }
         }
     }
 
@@ -83,32 +101,31 @@ public class Letter : BaseLetter, IDragHandler,IBeginDragHandler, IEndDragHandle
     {
         //按下
         SetTarget(null);
-        m_UIDepthControlScript.Depth = m_NormalLayer;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-//        transform.position = Input.mousePosition; //当前位置为鼠标所在位置
         Vector3 globalMousePos;
         if (m_bIsMoveParent && RectTransformUtility.ScreenPointToWorldPointInRectangle(m_RecTransform, eventData.position, eventData.pressEventCamera, out globalMousePos))
         {
             transform.position = globalMousePos;
         }
     }
-    
+
     /// <summary>
     /// 开始拖动
     /// </summary>
     /// <param name="eventData"></param>
-    public void OnBeginDrag (PointerEventData eventData) {
+    public void OnBeginDrag(PointerEventData eventData)
+    {
         Vector3 globalMousePos;
         if (m_bIsMoveParent && RectTransformUtility.ScreenPointToWorldPointInRectangle(m_RecTransform, eventData.position, eventData.pressEventCamera, out globalMousePos))
         {
             transform.position = globalMousePos;
         }
+
         //抬起
         EventManager.Instance.LetterPointDown(gameObject);
-        m_UIDepthControlScript.Depth = m_SelectLayer;
     }
 
     /// <summary>
@@ -119,7 +136,6 @@ public class Letter : BaseLetter, IDragHandler,IBeginDragHandler, IEndDragHandle
     {
         m_bIsMoveParent = false;
         EventManager.Instance.LetterPointUp(gameObject);
-        m_UIDepthControlScript.Depth = m_NormalLayer;
     }
 
     /// <summary>
@@ -145,9 +161,23 @@ public class Letter : BaseLetter, IDragHandler,IBeginDragHandler, IEndDragHandle
         {
             m_bIsMoveParent = false;
         }
+
         CalOffset(go);
         target = go;
-        
+    }
+
+    /// <summary>
+    /// 设置大小
+    /// </summary>
+    /// <param name="size"></param>
+    public void SetSize(Vector2 size)
+    {
+        if (!m_bIsInit)
+        {
+            Start();
+        }
+
+        m_RecTransform.sizeDelta = size;
     }
 
     /// <summary>
@@ -157,7 +187,7 @@ public class Letter : BaseLetter, IDragHandler,IBeginDragHandler, IEndDragHandle
     {
         if (null != go)
         {
-            offset = transform.position- go.transform.position;
+            offset = transform.position - go.transform.position;
         }
     }
 

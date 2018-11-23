@@ -49,6 +49,7 @@ public class EditorLetter : BaseLetter, IPointerDownHandler
         if (null != letter)
         {
             letter.text = letterStr;
+//            letter.text = m_IndexPos.field1 + ":" + m_IndexPos.field2;
         }
     }
 
